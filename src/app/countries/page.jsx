@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import styles from "./Countries.module.css";
 import CountryCard from "../../components/CountryCard";
-import Modal from "../../components/Modal";
+import CountryModal from "../../components/CountryModal";
 import Loading from "../../components/Loading";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -97,7 +97,7 @@ export default function Countries() {
                 )}
             </div>
 
-            {selectedCountry && <Modal country={selectedCountry} onClose={handleCloseModal} />}
+            {selectedCountry && <CountryModal country={selectedCountry} onClose={handleCloseModal} />}
 
             <button className={styles.scrollTopButton} onClick={() => window.scrollTo(0, 0)}>
                 Voltar ao Topo
