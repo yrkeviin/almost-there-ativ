@@ -8,11 +8,11 @@ export default function CountyModel({ country, onClose }) {
                 <h2>{country.translations.por.common}</h2>
                 <img src={country.flags.png} alt={`Bandeira de ${country.translations.por.common}`} className={styles.flag} />
                 <p>Nome Oficial: {country.translations.por.official}</p>
-                <p>Capital: {country.capital}</p>
+                <p>Capital: {country.capital || "Não tem"}</p>
                 <p>Continente: {country.region}</p>
-                <p>Sub-região: {country.subregion}</p>
+                <p>Sub-região: {country.subregion || "Não tem"}</p>
                 <p>População: {country.population.toLocaleString()}</p>
-                <p>Fuso Horário: {country.timezones}</p>
+                <p>Fuso Horário: {country.timezones[0]}</p>
             </div>
         </div>
     );
