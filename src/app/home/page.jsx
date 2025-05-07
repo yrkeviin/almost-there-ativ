@@ -12,8 +12,14 @@ export default function Home() {
                     <li>Next.js (App Router)</li>
                     <li>CSS Modules</li>
                     <li>React Components</li>
-                    <li>Axios</li>
+                    <li>React Hooks</li>
+                    <li>PreLoad</li>
+                    <li>PreFetch</li>
+                    <li>Fetch Axios</li>
+                    <li>LocalStorage</li>
                     <li>React Toastify</li>
+                    <li>AntD</li>
+                    <li>Skeleton</li>
                 </ul>
             </div>
             <a href="/countries">
