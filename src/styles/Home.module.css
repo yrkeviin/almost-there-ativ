@@ -5,12 +5,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgb(99, 99, 99);
+    background-color: lightgray;
 }
 
 .image {
-    width: 300px;
-    height: auto;
     border-radius: 50%;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
 }
@@ -31,7 +29,7 @@ padding: 0.5rem 2.5rem;
 .button {
     padding: 10px 20px;
     margin: 20px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    background-color: blue;
+    color: white;
     border-radius: 5px;
 }

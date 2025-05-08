@@ -4,14 +4,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(200, 60, 255);
+    background-color: lightblue;
 }
 
 .button {
     margin: 5px;
     padding: 10px 15px;
-    background-color: rgb(195, 195, 195);
-    color: rgb(0, 0, 0);
+    background-color: blue;
+    color: white;
     border-radius: 5px;
 }
 
@@ -39,4 +39,8 @@
     border: none;
     border-radius: 8px;
 }
-
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
