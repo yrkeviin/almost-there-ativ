@@ -4,14 +4,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: lightblue;
+    background-color: rgb(200, 60, 255);
 }
 
 .button {
     margin: 5px;
     padding: 10px 15px;
-    background-color: blue;
-    color: white;
+    background-color: rgb(195, 195, 195);
+    color: rgb(0, 0, 0);
     border-radius: 5px;
 }
 
