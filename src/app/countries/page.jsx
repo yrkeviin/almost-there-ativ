@@ -21,7 +21,7 @@ export default function Countries() {
     try {
       const url = region
         ? `https://restcountries.com/v3.1/region/${region}`
-        : "https://restcountries.com/v3.1/all";
+        : "http://localhost:3000/api/funcionarios";
       const response = await axios.get(url);
       setCountries(response.data);
       if (!region) {

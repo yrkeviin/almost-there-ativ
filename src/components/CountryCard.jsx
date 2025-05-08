@@ -1,11 +1,11 @@
 import React from "react";
 import styles from "../styles/CountryCard.module.css";
 
-export default function CountryCard({ country, onClick }) {
+export default function CountryCard({ funcionarios, onClick }) {
   return (
-    <div className={styles.card} onClick={() => onClick(country)}>
+    <div className={styles.card} onClick={() => onClick(funcionarios)}>
       <img
-        src={country.flags.png}
+        src={funcionarios.photo.png}
         alt={`Bandeira de ${country.translations.por.common}`}
         className={styles.flag}
       />
